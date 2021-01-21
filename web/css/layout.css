@@ -1,0 +1,106 @@
+@charset "euc-kr";
+@import "common.css";
+
+body {font-family:"굴림",Gulim,'맑은 고딕', 'Malgun Gothic',"돋움", dotum, arial, sans-serif;color:#8c8a8a;font-size:12px;background:url(/img/bg_g_st.gif) repeat-y center;}
+img{border:0; margin:0;}
+p{margin:0;}
+
+html,body,
+div,span,
+dl,dt,dd,ul,ol,li,
+h1,h2,h3,h4,h5,h6,
+blockquote,p,address,pre,cite,
+form,fieldset,input,textarea,select,
+table,th,td,a{margin:0;padding:0;}
+ol,ul {list-style:none;}
+:focus { outline:0; }
+a:active { outline:none; }
+
+/* 기본 링크 스타일 */
+a:link 	{color:#909090;text-decoration:none;}
+a:visited	{color:#909090;text-decoration:none;}
+a:hover, a:focus	{text-decoration:none;}
+a:active	{text-decoration:none;}
+/* //기본 링크 스타일 */
+
+#wrap {margin: 0 auto;
+    position: relative;
+    width: 1000px; background-color:#fff;}
+#header {position:relative;width:1000px;height:81px;margin:0 auto; text-align:center; padding-top:25px;background-color:#fff;}
+
+
+/* content warp */
+#content_area {width:100%;background-color:#fff;}
+#content_area .content {height: auto !important;margin: 0 auto; min-height:750px; position:relative; width: 1000px;}
+
+.content .right_menu{float:left; padding: 100px 0 0 40px; overflow:hidden;}
+.content .right_menu img{padding-top:30px;}
+
+.content #content01{overflow:hidden;}
+.content #content02{overflow:hidden;}
+.content #content03{overflow:hidden;}
+.content .m_con{padding-left:130px;overflow:hidden;}
+/* slide */
+#frame {
+	position:absolute;
+	z-index:0;
+	width:739px;
+	height:341px;
+	top:-3px;
+	left:-80px;
+}
+
+#slides {
+	float:right;
+	padding-right:222px;
+	z-index:100;
+}
+
+#slides .next,#slides .prev {
+	position:absolute;
+
+	width:24px;
+	height:43px;
+	display:block;
+	z-index:101;
+}
+
+.slides_container {
+	width:600px;
+	height:720px;
+	overflow:hidden;
+	position:relative;
+}
+
+#slides .next {
+	
+}
+
+.pagination {
+	margin:26px auto 0;
+	width:100px;
+}
+
+.pagination li {
+	float:left;
+	margin:0 1px;
+}
+
+.pagination li a {
+	display:block;
+	width:12px;
+	height:0;
+	padding-top:12px;
+	background-image:url(/img/pagination.png);
+	background-position:0 0;
+	float:left;
+	overflow:hidden;
+}
+
+.pagination li.current a {
+	background-position:0 -12px;
+}
+
+/* footer */
+#footer {width:100%;height:100px;clear:both; }
+#footer .footer {height: 100px;margin: 0 auto;position: relative;width: 1000px;background-color:#fff;}

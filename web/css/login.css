@@ -1,0 +1,12 @@
+/* 로그인 화면 */
+#contentWrap { width:100%; height:100%; }
+	#content { position:relative; width:609px; left:50%; top:50%; margin:-154px 0 0 -300px; background-color:#E3E3E3;}
+		.loginTitle { margin-top:1px; background: url(../img/t_a_login_bg.gif) repeat-x left top; }
+		.formBody { height:187px; background-color:#F4F4F4;}
+			#loginForm fieldset {display: inline;}
+			.formGuide { margin:27px 0 0 160px; background-color:#F4F4F4;}
+			.formInput { margin:40px 0 0 150px;}
+				.formInput input#id, .formInput input#password { width:150px; padding-top: 2px; padding-left: 2px;}
+				.formInput input#id { margin-bottom: 3px; ime-mode: disabled; }
+				.formInput button#loginButton { width: 61px; height: 61px; background: url(../img/bt_login.gif) no-repeat left top; border:none;}
+		.warning { background-color:#FFFFFF;}

@@ -1,0 +1,523 @@
+/*----------------------------------------------------
+  Redshop V4.0 기본 스타일
+------------------------------------------------------*/
+/* tag-common attribute */
+body,form,div,p,h1,h2,h3,h4,h5,h6,dl,dt,dd,ul,ol,li,pre,fieldset,input,blockquote,th,td{margin:0;padding:0;}
+body{text-align:left;}
+address,caption,cite,code,dfn,em,th,var{font-style:normal;font-weight:normal;}
+ol,ul,dl{list-style:none;}
+table{border-collapse:collapse;border-spacing:0;}
+fieldset,img{border:0;}
+body, div, textarea, iframe {font-size:9pt;}
+img, input, select { vertical-align:middle; }
+/* button {cursor:pointer; vertical-align:middle; margin:0 2px 0 2px;} */
+
+/*----------------------------------------------------
+  Redshop V4.0 링크 스타일
+------------------------------------------------------*/
+/* default */
+A {}
+A:link { color:#434843; text-decoration:none} 
+A:visited { color:#434843; text-decoration:none} 
+A:active {color:#434843; text-decoration:none} 
+A:hover {color:#185893; text-decoration:underline} 
+
+
+.topMenuOn{
+  	font-weight: bold;
+}
+.topMenuOff{
+  	font-weight: nomal;
+}
+.leftMenuOn{
+	font-weight: bold;
+}
+.leftMenuOn{
+	font-weight: nomal;
+}
+
+
+/* white */
+.a_white { color:#FFFFFF; } 
+.a_white A:link{ color:#FFFFFF; } 
+.a_white A:visited { color:#FFFFFF; } 
+.a_white A:active { color:#FFFFFF; } 
+.a_white A:hover{ color:#FFFFFF; }
+a.a_white:link{ color:#FFFFFF; } 
+a.a_white:visited { color:#FFFFFF; } 
+a.a_white:active { color:#FFFFFF; } 
+a.a_white:hover{ color:#FFFFFF; }
+
+/* green */
+.a_green { color:#434843; } 
+.a_green A:link{ color:#434843; } 
+.a_green A:visited { color:#434843; } 
+.a_green A:active { color:#363; } 
+.a_green A:hover{ color:#363; }
+a.a_green:link{ color:#434843; } 
+a.a_green:visited { color:#434843; } 
+a.a_green:active { color:#363; } 
+a.a_green:hover{ color:#363; }
+
+/* gray */
+.a_gray { color:#7B7B7B; } 
+.a_gray A:link{ color:#7B7B7B; } 
+.a_gray A:visited { color:#7B7B7B; } 
+.a_gray A:active { color:#7B7B7B; } 
+.a_gray A:hover{ color:#7B7B7B; }
+a.a_gray:link{ color:#7B7B7B; } 
+a.a_gray:visited { color:#7B7B7B; } 
+a.a_gray:active { color:#7B7B7B; } 
+a.a_gray:hover{ color:#7B7B7B; }
+
+/* red */
+.a_red { color:#d33c07; } 
+.a_red A:link{ color:#d33c07; } 
+.a_red A:visited { color:#d33c07; } 
+.a_red A:active { color:#d33c07; } 
+.a_red A:hover{ color:#d33c07; }
+a.a_red:link{ color:#d33c07; } 
+a.a_red:visited { color:#d33c07; } 
+a.a_red:active { color:#d33c07; } 
+a.a_red:hover{ color:#d33c07; }
+
+/* blue */
+.a_blue { color:#336699; } 
+.a_blue A:link{ color:#336699; } 
+.a_blue A:visited { color:#336699; } 
+.a_blue A:active { color:#336699; } 
+.a_blue A:hover{ color:#336699; }
+a.a_blue:link{ color:#336699; } 
+a.a_blue:visited { color:#336699; } 
+a.a_blue:active { color:#336699; } 
+a.a_blue:hover{ color:#336699; }
+
+/* orange */
+.orange {font-size:9pt; color:#ED5F09; line-height: 19px} 
+.orange A:link {color:#ED5F09;font-size:9pt;text-decoration:none} 
+.orange A:visited {color:#ED5F09;font-size:9pt;text-decoration:none} 
+.orange A:active {color:#ED5F09;font-size:9pt;text-decoration:none} 
+.orange A:hover {color:#ED5F09;text-decoration:underline} 
+
+.orange_s {font-size:8pt; color:#ED5F09; line-height: 19px} 
+.orange_s A:link {color:#ED5F09;font-size:8pt;text-decoration:none} 
+.orange_s A:visited {color:#ED5F09;font-size:8pt;text-decoration:none} 
+.orange_s A:active {color:#ED5F09;font-size:8pt;text-decoration:none} 
+.orange_s A:hover {color:#ED5F09;text-decoration:underline} 
+
+/* ci */
+.a_ci { font-weight:bold; color:#d33c07; } 
+.a_ci A:link{ color:#d33c07; } 
+.a_ci A:visited { color:#d33c07; } 
+.a_ci A:active { color:#d33c07; } 
+.a_ci A:hover{ color:#d33c07; }
+a.a_ci:link{ color:#d33c07; } 
+a.a_ci:visited { color:#d33c07; } 
+a.a_ci:active { color:#d33c07; } 
+a.a_ci:hover{ color:#d33c07; }
+
+/* button */
+/* .a_button { color:#000; } 
+.a_button A:link{ color:#000; } 
+.a_button A:visited { color:#000; } 
+.a_button A:active { color:#000; } 
+.a_button A:hover{ color:#000; }
+a.a_button:link{ color:#000; } 
+a.a_button:visited { color:#000; } 
+a.a_button:active { color:#000; } 
+a.a_button:hover{ color:#000; text-decoration:none;}
+ */
+/*----------------------------------------------------
+  Redshop V4.0 Form 스타일
+------------------------------------------------------*/
+/* 기본 input box */
+.box {
+	font-size: 9pt;
+	border:1px solid #B6BEBC;
+	background-color:#FBFAF6;
+	padding:1px;
+}
+
+/* 우측정렬 숫자입력 input box */
+.box_num {
+	font-size: 9pt;
+	border:1px solid #B6BEBC;
+	background-color:#FBFAF6;
+	text-align:right;
+	padding:1px;
+}
+
+/*----------------------------------------------------
+  Redshop V4.0 폰트 스타일
+------------------------------------------------------*/
+/* 글자크기 */
+.small {font-family: "돋움",Dotum; font-size: 11px; }
+.small *{font-family: "돋움",Dotum; font-size: 11px; }
+
+/* 색상 */
+.blue {color:#336699;}
+.blue_b {color:#336699; font-weight:bold;}
+.red {color:#d33c07;}
+.red_b {color:#d33c07; font-weight:bold;}
+.gray {color:gray;}
+.gray_b {color:gray; font-weight:bold;}
+.whitegray {color:#bdbdbd;}
+.whitegray_b {color:#bdbdbd; font-weight:bold;}
+
+/* 게시판의 new 표시 */
+.new {
+	font-size:8pt;
+	font-family:"Arial, Helvetica, sans-serif";
+	color:#d33c07;
+}
+
+/* 게시판의 hot 표시 */
+.hot {
+	font-size:8pt;
+	font-family:"Arial, Helvetica, sans-serif";
+	color:#336699;
+}
+
+/* Comment - 게시판의 댓글수 등에 쓰임*/
+.comment {
+	font-size:7pt;
+	font-family:"Arial, Helvetica, sans-serif";
+	color:#336699;
+}
+
+/*------------------------------------ td style -----------------------------------------*/
+th {font-size:9pt; font-weight:bold; color:#434843; line-height: 19px} 
+td {font-size:9pt; color:#434843; line-height: 19px} 
+
+/*------------------------------------ small font -----------------------------------------*/
+
+.s {font-family: "돋움",Dotum; font-size: 11px; }
+.s *{font-family: "돋움",Dotum; font-size: 11px; }
+
+
+.sl {font-family: "돋움",Dotum; font-size: 11px; line-height: 13px ; color:#6A6565;}
+.sl *{font-family: "돋움",Dotum; font-size: 11px; line-height: 13px ; color:#6A6565;}
+.sl A:link{ font-family: "돋움",Dotum; font-size: 11px;color:#6A6565;text-decoration:none} 
+.sl A:visited { font-family: "돋움",Dotum; font-size: 11px;color:#6A6565;text-decoration:none} 
+.sl A:active { font-family: "돋움",Dotum; font-size: 11px;color:#6A6565;text-decoration:none} 
+.sl A:hover{ font-family: "돋움",Dotum; font-size: 11px;color:#214A87;text-decoration:underline}
+
+
+.s_blue { font-family: "돋움",Dotum; font-size: 11px;color:#2B93C9;text-decoration:none} 
+.s_blue A:link{ font-family: "돋움",Dotum; font-size: 11px;color:#2B93C9;text-decoration:none} 
+.s_blue A:visited { font-family: "돋움",Dotum; font-size: 11px;color:#2B93C9;text-decoration:none} 
+.s_blue A:active { font-family: "돋움",Dotum; font-size: 11px;color:#2B93C9;text-decoration:none} 
+.s_blue A:hover{ font-family: "돋움",Dotum; font-size: 11px;color:#214A87;text-decoration:underline}
+
+
+.s_light { font-family: "돋움",Dotum; font-size: 11px;color:#C4C4C4;text-decoration:none} 
+.s_light A:link{ font-family: "돋움",Dotum; font-size: 11px;color:#C4C4C4;text-decoration:none} 
+.s_light A:visited { font-family: "돋움",Dotum; font-size: 11px;color:#C4C4C4;text-decoration:none} 
+.s_light A:active { font-family: "돋움",Dotum; font-size: 11px;color:#C4C4C4;text-decoration:none} 
+.s_light A:hover{ font-family: "돋움",Dotum; font-size: 11px;color:#9F9F9F;text-decoration:underline}
+
+
+.s_red { font-family: "돋움",Dotum; font-size: 11px;color:#BC4444;text-decoration:none} 
+.s_red A:link{ font-family: "돋움",Dotum; font-size: 11px;color:#BC4444;text-decoration:none} 
+.s_red A:visited { font-family: "돋움",Dotum; font-size: 11px;color:#BC4444;text-decoration:none} 
+.s_red A:active { font-family: "돋움",Dotum; font-size: 11px;color:#BC4444;text-decoration:none} 
+.s_red A:hover{ font-family: "돋움",Dotum; font-size: 11px;color:#840202;text-decoration:underline}
+
+/*-----------------------------------------------------------------------------------------*/
+.cp {font-size:11px; color:#434843; line-height: 15px; FONT-FAMILY: 돋움,Gulim} 
+
+.th {font-size:9pt; font-weight:bold; color:#434843; line-height: 19px} 
+.th A:link {color:#434843;font-size:9pt;text-decoration:none} 
+.th A:visited {color:#434843;font-size:9pt;text-decoration:none} 
+.th A:active {color:#434843;font-size:9pt;text-decoration:none} 
+.th A:hover {color:#185893;text-decoration:underline} 
+
+.td {font-size:9pt; color:#434843; line-height: 19px} 
+.td A:link {color:#434843;font-size:9pt;text-decoration:none} 
+.td A:visited {color:#434843;font-size:9pt;text-decoration:none} 
+.td A:active {color:#434843;font-size:9pt;text-decoration:none} 
+.td A:hover {color:#185893;text-decoration:underline} 
+
+.td_link {font-size:9pt; color:#336699; line-height: 19px} 
+.td_link A:link {color:#336699;font-size:9pt;text-decoration:none} 
+.td_link A:visited {color:#336699;font-size:9pt;text-decoration:none} 
+.td_link A:active {color:#336699;font-size:9pt;text-decoration:none} 
+.td_link A:hover {color:#185893;text-decoration:underline} 
+
+.s1_today {font-family: "돋움",Dotum; font-size: 11px; line-height: 13px ; color:green;}
+.s1_today A:link {color:green;}
+.s1_today A:visited {color:green;}
+.s1_today A:active {color:green;}
+.s1_today A:hover {color:green;}
+
+.s1_saturday {font-family: "돋움",Dotum; font-size: 11px; line-height: 13px ; color:#336699;}
+.s1_saturday A:link {color:#336699;}
+.s1_saturday A:visited {color:#336699;}
+.s1_saturday A:active {color:#336699;}
+.s1_saturday A:hover {color:#336699;}
+
+.s1_sunday {font-family: "돋움",Dotum; font-size: 11px; line-height: 13px ; color:#d33c07;}
+.s1_sunday A:link {color:#d33c07;}
+.s1_sunday A:visited {color:#d33c07;}
+.s1_sunday A:active {color:#d33c07;}
+.s1_sunday A:hover {color:#d33c07;}
+
+
+.box {
+	font-size: 9pt;
+	border:1px solid #B6BEBC;
+	back-color:#FBFAF6;
+}
+
+.box_num {
+	font-size: 9pt;
+	border:1 solid #B6BEBC;
+	back-color:#FBFAF6;
+	text-align:right;
+}
+
+.boxCurrency {
+	font-size: 9pt;
+	border:1 solid #B6BEBC;
+	back-color:#FBFAF6;}
+
+
+.w {
+	font-size:9pt;
+	color:#504D4D;
+	line-height: 19px;
+	font-weight: bold;
+} 
+.w A:link {color:#EF720C;font-size:9pt;text-decoration:none} 
+.w A:visited {color:#EF720C;font-size:9pt;text-decoration:none} 
+.w A:active {color:#EF720C;font-size:9pt;text-decoration:none} 
+.w A:hover {color:#EF720C;text-decoration:underline} 
+
+
+.pp {color:#C93E65;font-family: "돋움",Dotum; font-size: 11px;text-decoration:none} 
+.pp A:link {color:#C93E65;font-family: "돋움",Dotum; font-size: 11px;text-decoration:none} 
+.pp A:visited {color:#C93E65;font-family: "돋움",Dotum; font-size: 11px;text-decoration:none} 
+.pp A:active {color:#C93E65;font-family: "돋움",Dotum; font-size: 11px;text-decoration:none} 
+.pp A:hover {color:#C93E65;font-family: "돋움",Dotum; font-size: 11px;text-decoration:underline} 
+
+.sw {font-family: "돋움",Dotum; font-size: 11px;  color:#FFFFFF; font-weight: bold;}
+
+.sws {font-family: "돋움",Dotum; font-size: 11px;  color:#FFFFFF;}
+
+.white {color:#FFFFFF; font-size:9px; line-height: 19px} 
+.white A:link {color:#FFFFFF;font-size:9px;text-decoration:none} 
+.white A:visited {color:##FFFFFF;font-size:9px;text-decoration:none} 
+.white A:active {color:#FFFFFF;font-size:9px;text-decoration:none} 
+.white A:hover {color:#FFFFFF;text-decoration:underline} 
+
+.light {font-size:9pt; color:#666966; line-height: 19px} 
+.light A:link {color:#666966;font-size:9pt;text-decoration:none} 
+.light A:visited {color:#666966;font-size:9pt;text-decoration:none} 
+.light A:active {color:#666966;font-size:9pt;text-decoration:none} 
+.light A:hover {color:#666966;text-decoration:underline} 
+
+.notice{font-size:9pt; color:#A74639; line-height: 19px} 
+.notice A:link {color:#A74639;font-size:9pt;text-decoration:none} 
+.notice A:visited {color:#A74639;font-size:9pt;text-decoration:none} 
+.notice A:active {color:#A74639;font-size:9pt;text-decoration:none} 
+.notice A:hover {color:#A74639;text-decoration:underline} 
+
+.pt {font-size:9pt; color:#3D3C3C; line-height: 20px; font-weight: bold;} 
+.pt A:link {color:#12990F;font-size:9pt;text-decoration:none} 
+.pt A:visited {color:#12990F;font-size:9pt;text-decoration:none} 
+.pt A:active {color:#12990F;font-size:9pt;text-decoration:none} 
+.pt A:hover {color:#12990F;text-decoration:underline} 
+
+/*.blue {
+	font-size: 9pt;
+	color: #19416D;
+	line-height: 14px;
+	font-style: normal;
+	font-weight: bold;
+} 
+.blue A:link{color:#2B93C9;text-decoration:none} 
+.blue A:visited {color:#2B93C9;text-decoration:none} 
+.blue A:active {color:#2B93C9;text-decoration:none} 
+.blue A:hover{color:#214A87;text-decoration:underline} 
+*/
+
+/*----------------------------------------------------
+	단어강조 스타일
+------------------------------------------------------*/
+.em_basic {font-weight: bold;}
+
+.em_blue {color:#336699; font-weight: bold;}
+.em_blue A:link{color:#336699;text-decoration:none} 
+.em_blue A:visited {color:#336699;text-decoration:none} 
+.em_blue A:active {color:#336699;text-decoration:none} 
+.em_blue A:hover{color:#336699;text-decoration:underline} 
+
+.em_red {color:#d33c07; font-weight: bold;}
+.em_red A:link{color:#d33c07;text-decoration:none} 
+.em_red A:visited {color:#d33c07;text-decoration:none} 
+.em_red A:active {color:#d33c07;text-decoration:none} 
+.em_red A:hover{color:#d33c07;text-decoration:underline} 
+
+.green {color:green;}
+.red {color:BC4444;}
+.sky {color:#336699;}
+.gray {color:#7B7B7B;}
+
+.em_bold {font-weight:bold;}
+.em_gray {font-weight:bold; color:#7B7B7B;}
+
+.new_admin {
+	color:"#d33c07";
+	font-family:"Arial, Helvetica, sans-serif";
+	font-size:10px;
+}
+
+.tip {color:#336699;}
+.tip_small {margin-left:3px; color:#336699; font-size:8pt; font-weight:normal;}
+.mid_line {text-decoration:line-through;}
+
+
+/* 보이지 않는 텍스트 */
+.hiddenText { visibility:hidden; width:0; height:0; overflow:hidden; position:absolute; top:-10000px; line-height:0; }
+
+
+/*----------------------------------------------------
+  Form 관련 스타일
+------------------------------------------------------*/
+#FormTitle {
+	color:#336699;
+	font-weight:bold;
+	margin: 0 0 5 0
+}
+
+#FormButton {
+	width:707px;
+	text-align:center;
+}
+
+#FormButtonPopup {
+	width:100%;
+	text-align:center;
+}
+
+/* .button {
+	height:20px;
+	font-size: 8pt;
+	border:1px solid #B6BEBC;
+	background-color:#FBFAF6;
+	cursor:pointer;
+} */
+
+.description {
+	color:#336699;
+}
+
+.commentCount {
+	font-size:7pt;
+	color:#d33c07;
+}
+/*----------------------------------------------------
+	Submenu 관련 스타일
+------------------------------------------------------*/
+.selectedSubmenu {font-weight:bold; font-family: "돋움",Dotum; font-size: 11px;}
+.selectedSubmenu A:link{font-weight:bold; font-family: "돋움",Dotum; font-size: 11px;} 
+.selectedSubmenu A:visited{font-weight:bold; font-family: "돋움",Dotum; font-size: 11px;} 
+.selectedSubmenu A:active{font-weight:bold; font-family: "돋움",Dotum; font-size: 11px;} 
+.selectedSubmenu A:hover{font-weight:bold; font-family: "돋움",Dotum; font-size: 11px;}
+
+.submenu {font-family: "돋움",Dotum; font-size: 11px;}
+.submenu A:link{font-family: "돋움",Dotum; font-size: 11px;} 
+.submenu A:visited{font-family: "돋움",Dotum; font-size: 11px;} 
+.submenu A:active{font-family: "돋움",Dotum; font-size: 11px;}
+.submenu A:hover{font-family: "돋움",Dotum; font-size: 11px;}
+
+.adminMenuSelected {color:#336699; font-weight:bold; font-family: "돋움",Dotum; font-size: 12px;}
+.adminMenuSelected A:link{color:#336699; font-weight:bold; font-family: "돋움",Dotum;} 
+.adminMenuSelected A:visited{color:#336699; font-weight:bold; font-family: "돋움",Dotum;} 
+.adminMenuSelected A:active{color:#336699; font-weight:bold; font-family: "돋움",Dotum;} 
+.adminMenuSelected A:hover{color:#336699; font-weight:bold; font-family: "돋움",Dotum;}
+
+.adminMenuUnselected {color:#336699; font-family: "돋움",Dotum; font-size: 12px;}
+.adminMenuUnselected A:link{color:#336699; font-family: "돋움",Dotum;} 
+.adminMenuUnselected A:visited{color:#336699; font-family: "돋움",Dotum;} 
+.adminMenuUnselected A:active{color:#336699; font-family: "돋움",Dotum;} 
+.adminMenuUnselected A:hover{color:#336699; font-family: "돋움",Dotum;}
+
+/*----------------------------------------------------------
+	Paging 관련 스타일
+------------------------------------------------------------*/
+.page_left {
+	padding-left:3px;
+	padding-right:3px;
+	border-left:1px;
+	border-right:1px;
+}
+
+.current_page {
+	font-weight:bold;
+	color:#CC3300;
+	padding-left:3px;
+	padding-right:3px;
+}
+
+.other_page {
+	font-weight:bold;
+	padding-left:3px;
+	padding-right:3px;
+	cursor:pointer;
+}
+
+/*----------------------------------------------------------
+	Reservation 관련 스타일
+------------------------------------------------------------*/
+.reserved {
+	background:#C7C1C1;
+	color:#FFFFFF;
+	cursor:pointer;
+}
+
+.not_reserved {
+	color:#cdcdcd;
+}
+
+.my_reserved {
+	background-image:url("img/my_reserve.gif");
+	color:#cdcdcd;
+	cursor:pointer;
+}
+
+/*----------------------------------------------------------
+	Javascript 관련 스타일 : TextTicker
+------------------------------------------------------------*/
+#textTicker{
+    width: 450px;
+    font: bold 12px Verdana;
+    letter-spacing:-1px;
+    padding: 3px;
+    filter: progid:DXImageTransform.Microsoft.GradientWipe(GradientSize=1.0 Duration=0.7)
+}
+
+/*----------------------------------------------------------
+	Javascript 관련 스타일 : Slide Popup
+------------------------------------------------------------*/
+#dhtmlgoodies_contentBox {
+  border:1px solid #317082;
+  height:0px;
+  visibility:hidden;
+  position:absolute;
+  background-color:#FFFFCC;
+  overflow:auto;
+  padding:10px;
+  width:250px;
+}
+
+#dhtmlgoodies_content {
+  position:relative;  
+  font-family: tahoma;
+  width:100%;
+  font-size:9pt;
+}
+
+.scroll_box {
+	scrollbar-face-color: #DBDBDB; scrollbar-shadow-color: #EEEEEE; scrollbar-highlight-color: #DBDBDB;	scrollbar-3dlight-color: #EEEEEE; scrollbar-darkshadow-color: #DBDBDB; scrollbar-track-color: #EEEEEE; scrollbar-arrow-color: #FFFFFF;
+}

@@ -1,0 +1,88 @@
+
+table.hovertable {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+table.hovertable tr {
+	height: 30px;
+}
+table.hovertable td {
+	text-align: center;
+	font-size: 8pt;
+	border-top: 1px solid #e7e7e7;
+}
+
+table.hovertable thead th {
+	text-align: center;
+	font-size: 8pt;
+	font-weight: bold;
+	color: #7b7b7b;
+ 	background-color:#fffff0;
+ 	border-top: 1px solid #e7e7e7;
+}
+
+table.hovertable tbody tr.even2 {
+	background-color:#ff9933;
+}
+table.hovertable tbody tr.even {
+	background-color:#fffff5;
+}
+table.hovertable tbody tr { 
+	background-color:#ffffff;
+}
+table.hovertable tbody tr:hover { 
+	background:#ffffd0;
+}
+
+table.hovertable td.align_left {
+	text-align: left;
+}
+
+table.hovertable tfoot tr {
+	border-width: 0px;
+	background-color:#ffffff;
+}
+
+
+textarea.box {width:500px; height:200px; margin-top: 5px; margin-bottom: 5px;}
+
+.ks-pagination-links {
+/* font-size:90%;color:#333;font-family:Arial,Helvetica,sans-serif; */
+position:relative;padding-top: 25px;color:rgb(128, 128, 128);margin-bottom:15px;line-height:140%;}
+.ks-pagination-links ul {display:inline;padding-left:0px;margin-left:0px}
+.ks-pagination-links li {display:inline;list-style:none;text-align:center; margin:2px;}
+.ks-pagination-links li a {font-weight: 100;font-size: .8em!important;text-decoration: none!important; border: 1px #e7e7e7 solid;padding: 3px 6px 3px 6px!important;}
+.ks-pagination-links li a.last {border:2px #ccc solid;}
+.ks-pagination-links li a:hover {background-color: #f1f1f1; color: #fff!important; border:1px #e7e7e7 solid;}
+.ks-pagination-links li a.last:hover {border:2px #000 solid;}
+.ks-pagination-links .current {font-weight: bold;font-size: .8em; text-decoration: none; padding-left: 2px; padding-right: 2px; color: #D33C07}
+.ks-pagination-links .next a, .ks-pagination-links .previous a {border: 1px #fff solid; padding: 3px 6px 3px 6px;  }
+.ks-pagination-links .next a:hover, .ks-pagination-links .previous a:hover {font-weight:normal;}
+.ks-pagination-links .total {font-size:80%;}
+
+	
+#sortable { list-style-type: none; margin: 0; padding: 0; width: 100%; }
+	#sortable li { margin: 0 3px 3px 3px; padding: 0.4em; padding-left: 1.5em; font-size: 1.0em; height: 18px;}
+	#sortable li span { position: absolute; margin-left: -1.3em; }
+	.ui-state-highlight { height: 1.5em; line-height: 1.2em; }	
+	
+.formfield {
+    border: 1px solid green;
+}
+
+.highlight {
+    border: 2px solid red;
+}
+
+.notice {
+    font-size: 12px;
+    padding: 5px;
+    color: #707037;
+    background: #ffffe0;
+    border: 2px solid #f7f0b8;
+}
+
+.detailInfoOneItem tr td label{
+	margin-left: 5px;
+	margin-right: 10px;

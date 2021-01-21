@@ -1,0 +1,133 @@
+/*----------------------------------------------------
+  Redshop V4.0 - Admin Layout
+------------------------------------------------------*/
+/* 가장 바깥쪽 */
+#wrap { position:relative; }
+
+/* 상단 */
+#headerWrap { }
+	.topLinkArea { width:1024px; padding-top:5px; }
+		.topLinkTextOuter { width:150px; margin-right:20px; text-align:center; float:right; }
+		.topLinkTextInner { height:28px; padding-top:8px; }
+		.topLinkImgOuter { width:150px; margin:0 0px 0 20px; text-align:center; float:right;}
+		.topLinkImgInner { height:28px; background:url(../img/box_r.gif) no-repeat right top; }
+	.headerContent { clear:both; width:1024px; font-family: "돋움",Dotum; font-size: 11px; }
+		.logoArea { float:left; }
+		.userVisitInfo { float:left; margin-left: 5px; padding-top: 35px; } 
+		.userVisitCount { float:left; margin-left: 30px; padding-top: 35px; }
+		.shortCutOfHomepage { float:right; margin-right: 15px; padding-top: 33px; }
+	.headerMenuWrap { clear: both; height:41px; background:url(../img/title_bg.gif) repeat-x left top;}
+		.websiteName { float:left; width:195px; margin-top:15px; text-align:center; font-weight:bold; color:#FFFFFF; }
+		.topMenuOuter { float:left; }
+		.topMenuInner { }
+		.topMenuContent { height:41px; background:url(../img/top_bg.gif) repeat-x left top; }
+			.topMenu { width:100%; padding-top:18px; }
+			.topMenu li { float: left; padding:0 10px 0 10px; display:inline; background:url(../img/divide_gray.gif) repeat-y left top; }
+			.topMenu ul li.topMenuFirst { background: none; }
+		.topMenuToday { float:left; width:147px; margin-top:15px; font-size:8pt; text-align:right; font-weight:bold; color:#FFFFFF; }
+
+/* 좌측메뉴 및 내용 부분 */
+#contentWrap { clear:both; width:1079px; }
+	/* 좌측 메뉴 */
+	.contentMenu { width: 187px; float:left;}
+		.submenuTitle { background-color: #EFF0F0; height:31px;}
+			.submenuTitle h2 { background-color: #EFF0F0; font-size: 9pt; color: #19416D; font-style: normal; font-weight: bold; padding: 10px 0 5px 12px; float:left;}
+			.submenuTitle p { font-size: 8pt; color: #19416D; padding: 10px 10px 5px 0;	float: right; }
+			.submenuTitleRight { font-size: 8pt; text-align: right; }
+		.submenu { clear: both; width: 187; background: url(../img/q_m_bg.gif); }
+			.submenu .menuList { padding:12px 0 3px 0; background: url(../img/sub_m.gif) no-repeat left top;	}
+			.submenu .bottom { background: url(../img/q_m2.gif) no-repeat left bottom; height:10px;	}
+			.submenu li { padding: 4px 0 4px 40px; background:url(../img/icon1.gif) no-repeat 0 50%; }
+		.submenuMonthIndicator { text-align:center; margin-top:10px; }
+		.submenuCalendar { margin-top:10px; }
+			.submenuCalendar ul { width:183px; }
+				.submenuCalendar ul li.left { float:left; width:67px; text-align:right;  }
+				.submenuCalendar ul li.center { float:left; width:47px; text-align:center;  }
+				.submenuCalendar ul li.right { float:left; width:67px; text-align:left;  }
+			.submenuCalendarTitleDaily { background:url(../img/calendar_week.gif) no-repeat left top; width:188px; height:30px; } 
+			.submenuCalendarTitleMonthly { background:url(../img/calendar_month.gif) no-repeat left top; width:188px; height:30px; } 
+			.submenuCalendarContentWrap { background:url(../img/calendar_bg.gif) no-repeat left top; width:188px; height:171px; }
+				.submenuCalendarContent { padding: 3px 6px 3px 6px; }
+	/* 내용 */
+	.contentArea { float:left; width:820px; margin: 20px 0 0 20px; }
+		.contentForm { margin-top:20px; }
+		.contentTitle { padding-left:25px; margin-bottom:3px; background: url(../img/subject.gif) no-repeat left 50%; font-size:10pt; color:#3D3C3C; line-height: 20px; font-weight: bold;}
+		.contentSubTitle { padding-left:30px; padding-top: 20px; margin-bottom:3px; font-size:10pt; color:#3D3C3C; line-height: 20px; font-weight: bold;}
+
+		/* 검색폼 */
+		.searchTable tr { border-top:1px solid #CFD3D7; border-bottom:1px solid #CFD3D7; }
+		.searchTable th, .searchTable td { padding:5px; }
+		.searchTable input#searchKeyword { padding-top:4px; margin-right:2px; }
+		.searchButton { margin:15px 0 25px 0; text-align:center; }
+		
+		.listHeader { height:20px; margin:10px 0 3px 0; }
+			.listDescription { float:left; padding-top:5px;}
+			.orderSelector { float:right;}
+		.listBody { clear:both; }
+			.listMenu { height:30px; background-color:#F1F1F1; border-top:1px solid #D8D8D8; border-bottom:1px solid #D8D8D8;}
+				.listMenu li { float:left; margin-top:8px; padding:0 10 0 10px; display:inline; background:url(../img/divide_gray.gif) repeat-y left top;}
+				.listMenu p { padding-left: 20px;padding-top: 10px;font-size: 8pt;font-weight: bold;color: #7B7B7B;}
+				.listMenu ul li.first { background: none; }
+				.listMenuRight { float:right; }
+					.listMenuRight li { float:right; margin-top:8px; padding:0 10 0 10px; display:inline; background:url(../img/divide_gray.gif) repeat-y left top;}
+					.listMenuRight ul li.first { background: none; }
+			.listContent { clear:both; }
+			.listTable tr { height:30px;}
+				.listTable thead tr { background-color:#FAFAFA; }
+				.listTable thead th { text-align:center; font-size:8pt; font-weight:bold; color:#7B7B7B; border-top: 1px solid #E7E7E7;}
+				.listTable thead th.top { text-align:center; font-size:8pt; font-weight:bold; color:#7B7B7B; border-top: 1px solid #E7E7E7; border-bottom: 1px solid #E7E7E7;}
+				.listTable tbody tr { background-color:#FFFFFF;}
+				.listTable tbody td { font-size:8pt; border-top: 1px solid #E7E7E7;}
+				.listTable tbody td.bottom { font-size:8pt; border-bottom: 1px solid #E7E7E7;}
+			.listBottom { clear:both; height:20px; margin-top:20px;}
+				.listBottomLeft { float:left; width:260px;}
+				.listBottomCenter { float:left; width:300px; text-align:center; }
+					.pageList { padding:0 5px 0 5px; font-weight:bold;}
+				.listBottomRight { float:left; width:260px; }
+				.listBottomCenterOnly { text-align:center; }
+
+		/* 조회 및 Form 화면 */
+		.detailInfoWrap { width:710px; }
+		.detailInfo { width:100%;}
+			.detailInfo	tr { height:30px; }
+			.detailInfo	th { width:15%; text-align:right; font-weight:normal; padding-right:5px; background-color:#F3F6F8; }
+			.detailInfo	td { width:35%; padding-left:5px;}
+			.detailInfo th, .detailInfo td { border-top:1px solid #E6EAEF; font-size:9pt;}
+			.detailInfoFirst th, .detailInfoFirst td{ border-top:3px solid #CFD3D7; }
+			.detailInfoLast th, .detailInfoLast td{ border-bottom:1px solid #CFD3D7; }
+		.detailInfoOneItem { width:100%; }
+			.detailInfoOneItem	tr { height:30px; }
+			.detailInfoOneItem	th { width:15%; text-align:right; font-weight:normal; padding-right:5px; background-color:#F3F6F8; }
+			.detailInfoOneItem	td { width:85%; padding-left:5px;}
+			.detailInfoOneItem th, .detailInfoOneItem td { border-top:1px solid #E6EAEF; font-size:9pt;}
+			.detailInfoOneItemFirst th, .detailInfoOneItemFirst td{ border-top:3px solid #CFD3D7; }
+			.detailInfoOneItemLast th, .detailInfoOneItemLast td{ border-bottom:1px solid #CFD3D7; }
+		detailInfoOneItem2 { width:100%; }
+			.detailInfoOneItem2	tr { height:30px; }
+			.detailInfoOneItem2	th { width:30%; text-align:right; font-weight:normal; padding-right:5px; background-color:#F3F6F8; }
+			.detailInfoOneItem2	td { width:70%; padding-left:5px;}
+			.detailInfoOneItem2 th, .detailInfoOneItem2 td { border-top:1px solid #E6EAEF; font-size:9pt;}
+			.detailInfoOneItemFirst2 th, .detailInfoOneItemFirst2 td{ border-top:3px solid #CFD3D7; }
+			.detailInfoOneItemLast2 th, .detailInfoOneItemLast2 td{ border-bottom:1px solid #CFD3D7; }	
+		.detailInfoEditor { width:100%; border-top:3px solid #E6EAEF; border-bottom:2px solid #E6EAEF;}
+		.detailInfoButton { margin:20px 0 15px 0; text-align:center; }
+			/* .detailInfoButton button { margin:0 3px 0 3px; } */
+			
+		.alignRightButton { margin:20px 0 15px 0; text-align:right; }
+			/* .alignRightButton button { margin:0 3px 0 3px; } */
+
+		.statsTable th, .statsTable td { padding:4px; font-size:8pt;}
+
+
+/* 하단 CopyRight */
+#bottomWrap { clear:both; width:1079px; border-top:1px solid #CFD3D7; text-align:center; padding-top:10px; margin-top:10px; }
+	.ci { color:#d33c07; font-weight:bold; text-decoration:none; }
+
+/* Popup Content : Grade Form */
+#popupWrap { margin:5px; }
+#popupContentWrap { clear:both; }
+
+/*------------------------------------------------
+  Layout 공통 스타일
+--------------------------------------------------*/
+.arrow_icon { margin: 0 5px 0 5px; }

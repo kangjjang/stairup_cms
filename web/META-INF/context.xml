@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Context privileged="true" reloadable="true">
+
+    <!-- Default set of monitored resources -->
+    <WatchedResource>WEB-INF/web.xml</WatchedResource>
+    
+    <!--<Resource name="jdbc/cmsDB" auth="Container"
+			  type="javax.sql.DataSource"
+			  driverClassName="com.mysql.jdbc.Driver"
+			  url="jdbc:mysql://haatzmain.cj5gpg55kvqk.ap-northeast-2.rds.amazonaws.com:3306/stairup?autoReconnect=true&amp;useSSL=false&amp;useEncoding=true&amp;characterEncoding=UTF-8"
+			  username="stairup"
+			  password="rPeksdjq12#$***"
+			  maxTotal="100"
+        	  maxIdle="30"
+			  maxWaitMillis="-1"
+              validationQuery="select 1"
+	/>-->
+
+	<!--계단업 상용 디비 로그 출력용 접속-->
+    <Resource name="jdbc/cmsDB" auth="Container"
+              type="javax.sql.DataSource"               	
+              driverClassName="core.log.jdbc.driver.MysqlDriver"
+        	  url="jdbc:mysql://haatzmain.cj5gpg55kvqk.ap-northeast-2.rds.amazonaws.com:3306/stairup?autoReconnect=true&amp;useSSL=false&amp;useEncoding=true&amp;characterEncoding=UTF-8"
+        	  username="stairup"
+			  password="rPeksdjq12#$***"
+			  maxTotal="100"
+        	  maxIdle="30"
+			  maxWaitMillis="-1"
+              validationQuery="select 1"
+    />
+
+</Context>
