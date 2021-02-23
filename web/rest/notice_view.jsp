@@ -63,7 +63,7 @@ dao.closeConn();
 							
 							<%if(!vo.getNoticePic().equals("")) {%>
 							<%-- <img src="http://jerry393986.cafe24.com/upload/notice/<%=vo.getNoticePic() %>" width="320" height="320"><br><br><br> --%>
-							<img src="http://ec2-52-78-198-250.ap-northeast-2.compute.amazonaws.com:8080/upload/notice/<%=vo.getNoticePic() %>" width="100%"><br><br><br>
+							<img src="http://cms.stairup.kr:8080/upload/notice/<%=vo.getNoticePic() %>" width="100%"><br><br><br>
 							<%} %>
 							<%=vo.getNotiContent() %>
 						</p>
